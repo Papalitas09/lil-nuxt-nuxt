@@ -1,4 +1,10 @@
-<template>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias est fuga quibusdam vero iusto alias non laborum. Praesentium, perferendis eius nisi sit, commodi aut nostrum, quis corrupti necessitatibus ab dolores.
+<template>    
+ <commercial-components-commercial-layout :imgurl="images" title="Kiosk" />
 </template>
-<script setup lang="ts"></script>
+
+<script setup lang="ts">
+const images = [
+  { url: '/Assets/img/home.webp', alt: 'w' },
+  { url: '/Assets/img/kiosk2.webp', alt: 'e'}
+]
+</script>

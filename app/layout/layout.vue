@@ -1,14 +1,13 @@
 <template>
  <div class="flex flex-col min-h-screen">
-    <Navbar />
-    <Welcome />
+    <LayoutComponentsNavbar />
+    <LayoutComponentsWelcome />
     <main class="flex-1">
       <slot />
     </main>
-    <Footer />
+    <LayoutComponentsFooter />
   </div>
 </template>
 
 <script lang="ts">
-
 </script>

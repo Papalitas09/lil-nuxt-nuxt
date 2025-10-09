@@ -1,8 +1,8 @@
 <template>
    <layout>
-    <HomeComponentsSummary />
-    <HomeComponentsRescom />
-    <HomeComponentsContact />
+      <HomeComponentsSummary />
+      <HomeComponentsRescom />
+      <HomeComponentsContact />
    </layout>
 </template>
 <script lang="ts" setup>
