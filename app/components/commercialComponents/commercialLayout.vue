@@ -6,7 +6,7 @@
                     <div class="h-screen w-8xl flex flex-col  items-center  py-5">
                         <another-green-buttons :links="navItems"/>
                         <client-only>
-                            <commercial-components-commercial-slide :imgurl="imgurl" :title="title"/>
+                            <slot />
                         </client-only>
                  </div>
             </div>
@@ -16,10 +16,6 @@
 
 <script setup lang="ts">
 import layout from '~/layout/layout.vue';
-defineProps<{
-    imgurl: {url: string, alt: string}[],
-    title: string
-}>()
 
 const navItems = [
   { label: 'Kiosk', page: 'kiosk' },

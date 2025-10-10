@@ -1,5 +1,5 @@
 <template>    
- <commercial-components-commercial-layout :imgurl="images" title="Kiosk" />
+ <commercial-components-commercial-slide :imgurl="images" title="Kiosk" />
 </template>
 
 <script setup lang="ts">

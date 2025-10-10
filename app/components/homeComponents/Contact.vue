@@ -5,7 +5,7 @@
             <h3>Information Marketing Gallery</h3>
             <div class="w-[15vw] bg-gradient-to-r from-white via-white to-transparent h-[0.3vh] md:w-24"></div>
         </div>
-        <div class=" w-full h-full flex flex-col items-center gap-10 py-5 md:justify-center md:w-[90%] md:h-fit md:gap-3 ">
+        <div class=" w-full h-full flex flex-col items-center gap-10 py-5 md:justify-center md:w-[90%]  md:h-fit md:gap-3 ">
            <span class=" md:w-full md:h-fit">
                <ContactCard
                imgurl="/Assets/img/icons/address.png"

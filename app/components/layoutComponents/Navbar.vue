@@ -68,7 +68,7 @@
   </header>
 
   <!-- Mobile menu -->
-  <div class="fixed my-16 w-full h-screen z-50 bg-amber-300 md:hidden flex">
+  <div class="fixed my-16 w-full h-screen z-50 bg-amber-300 md:hidden hidden">
     <ul class="bg-amber-400 w-full h-full flex flex-col justify-start gap-5 py-20 px-10">
       <li>uheuheuhe</li>
       <li>uheuheuhe</li>

@@ -1,5 +1,5 @@
 <template>
- <div class="h-fit w-full flex flex-col  gap-1 py-10" id="content">
+ <div class="h-fit w-full flex flex-col  gap-1 py-10 " id="content">
         <SummaryContent 
         imgurl="/Assets/img/home4.jpg"
         title="Temukan Hunian Nyaman dan Strategis di Apartemen Green Bay Pluit"

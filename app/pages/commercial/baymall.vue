@@ -1,5 +1,5 @@
 <template>    
- <commercial-components-commercial-layout :imgurl="images" title="Bay Mall" />
+ <commercial-components-commercial-slide :imgurl="images" title="Bay Mall" />
 </template>
 
 <script setup lang="ts">
