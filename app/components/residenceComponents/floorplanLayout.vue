@@ -1,5 +1,4 @@
 <template>
-    <ResidenceLayout>
     <div class=" w-full h-fit flex flex-row items-center justify-evenly ">
         <div class=" w-xl h-screen  flex flex-col justify-center p-10 items-center">
             <FloorplanTower :buttons="buttons" :title="title"/>
@@ -8,7 +7,6 @@
             <FloorplanImages :imgurl="urlimeg" />
         </div>
     </div>   
-    </ResidenceLayout>
 </template>
 
 <script setup lang="ts">

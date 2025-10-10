@@ -10,10 +10,16 @@
 
 <script setup lang="ts">
 import layout from '~/layout/layout.vue';
+
+const props = defineProps<{
+    viewName?: string
+}>()
+
 const navItems = [
-    {label: 'Floor Plan', page: 'floorplan'},
-    {label: 'Stock Unit', page: 'stockunitparent'},
+    {label: 'Floor Plan', page: `/residence/${props.viewName}/floorplan`}, //kaalu pengen passing  props, pake string yang `` sama ${namavar}
+    {label: 'Stock Unit', page: `/residence/${props.viewName}/stockunit`},
     {label: 'Technical Spesification', extraclass: 'w-54'},
-    {label: 'About Us', page: 'hr'}
+    {label: 'Projects', page: 'hr'}
 ]
+
 </script>

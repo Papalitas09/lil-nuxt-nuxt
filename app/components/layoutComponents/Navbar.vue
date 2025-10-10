@@ -24,9 +24,9 @@
           <div class="absolute w-52 h-fit invisible group-hover:visible">
             <img src="/Assets/img/Polygon2.png" alt="" class="left-0 w-6" />
             <div class="w-full bg-[#326F78] h-full flex flex-col gap-2 items-center py-2">
-              <NuxtLink to="" class="border-b-1 w-44">Coastview Apartment</NuxtLink>
-              <NuxtLink to="" class="border-b-1 w-44">Bayview Apartment</NuxtLink>
-              <NuxtLink to="" class="border-b-1 w-44">Seaview Condominium</NuxtLink>
+              <NuxtLink to="/residence/coastview/floorplan" class="border-b-1 w-44">Coastview Apartment</NuxtLink>
+              <NuxtLink to="/residence/bayview/floorplan" class="border-b-1 w-44">Bayview Apartment</NuxtLink>
+              <NuxtLink to="/residence/seaview/floorplan" class="border-b-1 w-44">Seaview Condominium</NuxtLink>
             </div>
           </div>
         </button>
@@ -38,8 +38,8 @@
         <div class="absolute w-52 h-fit invisible group-hover:visible">
           <img src="/Assets/img/Polygon2.png" alt="" class="left-0 w-6" />
           <div class="w-full bg-[#326F78] h-full flex flex-col gap-2 items-center py-2">
-            <NuxtLink to="" class="border-b-1 w-44">Kiosk</NuxtLink>
-            <NuxtLink to="" class="border-b-1 w-44">The Bay Mall</NuxtLink>
+            <NuxtLink to="/commercial/kiosk" class="border-b-1 w-44">Kiosk</NuxtLink>
+            <NuxtLink to="/commercial/baymall" class="border-b-1 w-44">The Bay Mall</NuxtLink>
           </div>
         </div>
       </button>
@@ -50,8 +50,8 @@
         <div class="absolute w-52 h-fit invisible group-hover:visible">
           <img src="/Assets/img/Polygon2.png" alt="" class="left-0 w-6" />
           <div class="w-full bg-[#326F78] h-full flex flex-col gap-2 items-center py-2">
-            <NuxtLink to="" class="border-b-1 w-44">About Us</NuxtLink>
-            <NuxtLink to="" class="border-b-1 w-44">Visi Missions</NuxtLink>
+            <NuxtLink to="/about/aboutUs" class="border-b-1 w-44">About Us</NuxtLink>
+            <NuxtLink to="/about/visiMission" class="border-b-1 w-44">Visi Missions</NuxtLink>
           </div>
         </div>
       </button>

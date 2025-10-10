@@ -3,7 +3,7 @@
     <button
       v-for="(link, index) in links"
       :key="index"
-      @click=""
+      @click="NavigationPage(link.page)"
       class="w-42 h-10 text-center content-center rounded transition bg-[rgb(59,123,132)] text-white"
       :class="link.extraclass"
       >
@@ -13,7 +13,13 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
+const props = defineProps<{
   links: {label: string, page?: string, extraclass?: string}[]
 }>()
+
+const { activePage , goTo}  = ChangePage()
+
+function NavigationPage(page? : string){
+  if(page) goTo(page)
+}
 </script>

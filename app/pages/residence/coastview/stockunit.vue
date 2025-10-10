@@ -1,6 +1,5 @@
 <template>
-<ResidenceComponentsStockunitSecond />
-
+<p>second</p>
 </template>
 
 <script setup lang="ts">

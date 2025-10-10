@@ -18,7 +18,7 @@
 import layout from '~/layout/layout.vue';
 
 const navItems = [
-  { label: 'Kiosk', page: 'kiosk' },
-  { label: 'The Bay Mall', page: 'baymall'},
+  { label: 'Kiosk', page: '/commercial/kiosk' },
+  { label: 'The Bay Mall', page: '/commercial/baymall'},
 ]
 </script>
