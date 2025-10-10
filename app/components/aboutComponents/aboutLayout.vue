@@ -16,8 +16,8 @@
 import layout from '~/layout/layout.vue';
 
 const navItems = [
-    {label: "About Us", page: "aboutinfo"},
-    {label: "The Visions and missions", page: "visimissions", extraclass: "w-84"},
-    {label: "Project", page: "ef"},
+    {label: "About Us", page: "/about/aboutUs"},
+    {label: "The Visions and missions", page: "/about/visiMission", extraclass: "w-84"},
+    {label: "Project"},
 ]
 </script>

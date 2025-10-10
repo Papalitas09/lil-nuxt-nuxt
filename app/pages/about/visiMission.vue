@@ -1,5 +1,5 @@
 <template>
-   <div class="bg-[#D9D9D9] w-5xl h-10/12 rounded-4xl flex p-2 items-center justify-evenly ">
+   <div class="bg-[#D9D9D9] w-5xl h-full rounded-4xl flex p-2 items-center justify-evenly ">
       <img src="/Assets/img/icons/Logo.png" alt="" class="w-xs h-fit ">
       <div class="w-lg h-full  relative flex flex-col justify-evenly p-2 ">
         <div class=" w-full h-fit p-1">

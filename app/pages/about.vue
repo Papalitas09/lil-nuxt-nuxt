@@ -1,5 +1,5 @@
 <template>
-<AboutComponentsAboutLayout>
+<AboutComponentsAboutLayout view-name="about">
     <NuxtPage/>
 </AboutComponentsAboutLayout>
 </template>

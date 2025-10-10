@@ -1,1 +1,14 @@
 @import "tailwindcss";
+@font-face {
+  font-family: inter;
+  src: url("../fonts/Inter/inter.ttf");
+}
+@font-face {
+  font-family: Jasques;
+  src: url("../fonts/Jacques_Francois/JacquesFrancois-Regular.ttf");
+}
+
+@theme {
+  --font-inter: "inter", sans-serif;
+  --font-jasques: "Jasques", sans-serif;
+}

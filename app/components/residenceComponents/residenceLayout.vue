@@ -19,7 +19,7 @@ const navItems = [
     {label: 'Floor Plan', page: `/residence/${props.viewName}/floorplan`}, //kaalu pengen passing  props, pake string yang `` sama ${namavar}
     {label: 'Stock Unit', page: `/residence/${props.viewName}/stockunit`},
     {label: 'Technical Spesification', extraclass: 'w-54'},
-    {label: 'Projects', page: 'hr'}
+    {label: 'About Us', page: ''}
 ]
 
 </script>

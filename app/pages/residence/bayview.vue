@@ -1,5 +1,5 @@
 <template>
-<ResidenceComponentsResidenceLayout view-name="bayiew" >
+<ResidenceComponentsResidenceLayout view-name="bayview" >
     <NuxtPage />
 </ResidenceComponentsResidenceLayout>
 </template>
