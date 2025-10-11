@@ -11,14 +11,13 @@
 <script setup lang="ts">
 import layout from '~/layout/layout.vue';
 
-const props = defineProps<{
-    viewName?: string
-}>()
+const route = useRoute()
+const viewName = route.params.viewName as string
 
 const navItems = [
-    {label: 'Floor Plan', page: `/residence/${props.viewName}/floorplan`}, //kaalu pengen passing  props, pake string yang `` sama ${namavar}
-    {label: 'Stock Unit', page: `/residence/${props.viewName}/stockunit`},
-    {label: 'Technical Spesification', extraclass: 'w-54'},
+    {label: 'Floor Plan', page: `/residence/${viewName}/floorplan`}, //kaalu pengen passing  props, pake string yang `` sama ${namavar}
+    {label: 'Stock Unit', page: `/residence/${viewName}/stockunit`},
+    {label: 'Technical Spesification', page: `/residence/${viewName}/technical`, extraclass: 'w-54'},
     {label: 'About Us', page: ''}
 ]
 
