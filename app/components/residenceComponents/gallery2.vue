@@ -1,16 +1,73 @@
 <template>
-     <div class="flex-wrap gap-8 justify-center flex w-full h-full flex-row items-center bg-[#3B7B84] p-10  ">
-                <button class="h-56 " v-for="(button ,index) in imej " :key="index" :class="button.extra" @click="ChangeState(button.img)"> <!--Nah eta, changestatenya di set paramnya, jadi parent ga usah set lagi-->
-                    <img :src="button.img" :alt="button.alt" class="rounded-3xl w-full h-full">
-                </button>
-            </div>
+     <div class="relative flex w-full flex-col items-center justify-center bg-[#3B7B84] py-10">
+    <client-only>
+      <!-- Tombol Prev -->
+      <button
+        ref="prevEl"
+        class="absolute left-0 w-fit z-30 flex items-center justify-center rounded-full  p-3 transition hover:bg-white/40"
+      >
+        <img
+          src="/Assets/img/icons/PrevButton.webp"
+          alt="Previous"
+          class="w-14 h-full object-contain"
+        />
+      </button>
+
+      <!-- Swiper -->
+      <swiper
+        :modules="modul"
+        :slides-per-view="5"
+        :space-between="20"
+        class="w-[90%] max-w-6xl"
+        :navigation="{ prevEl: prevEl, nextEl: nextEl }"
+      >
+        <swiper-slide
+          v-for="(button, index) in imej"
+          :key="index"
+          :class="button.extra"
+          class="flex items-center justify-center"
+        >
+          <button
+            class="w-full h-72"
+            @click="ChangeState(button.img)"
+          >
+            <img
+              :src="button.img"
+              :alt="button.alt"
+              class="h-full w-full rounded-3xl object-cover object-center"
+            />
+          </button>
+        </swiper-slide>
+      </swiper>
+
+      <!-- Tombol Next -->
+      <button
+        ref="nextEl"
+        class="absolute right-0 z-30 flex items-center justify-center rounded-full w-fit p-3 transition hover:bg-white/40"
+      >
+        <img
+          src="/Assets/img/icons/NextButton.webp"
+          alt="Next"
+          class="w-14 h-full object-contain"
+        />
+      </button>
+    </client-only>
+  </div>
 </template>
 
 <script setup lang="ts">
-const emit = defineEmits(["Change-State"])
+import { Swiper, SwiperSlide } from 'swiper/vue'
+import { Pagination, Autoplay, Navigation } from 'swiper/modules'
+import { ref } from 'vue'
 
-function ChangeState(selectedIMG: string){
-    emit("Change-State", selectedIMG) //parameternya yang dimana imgnya nanti mnyesuaikan dengan img array di parent choy
+const modul = [Pagination, Navigation]
+const prevEl = ref<HTMLElement | null>(null)
+const nextEl = ref<HTMLElement | null>(null)
+
+const emit = defineEmits(['Change-State'])
+
+function ChangeState(selectedIMG: string) {
+  emit('Change-State', selectedIMG)
 }
 
 defineProps<{

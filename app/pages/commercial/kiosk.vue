@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 const images = [
-  { url: '/Assets/img/home.webp', alt: 'w' },
-  { url: '/Assets/img/kiosk2.webp', alt: 'e'}
+  { url: "/Assets/img/kiosk1.png", alt: 'Kiosk'},
+  { url: "/Assets/img/kiosk2.webp",  alt: 'kiosk'}
 ]
 </script>
