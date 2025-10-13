@@ -13,13 +13,13 @@
 
     <div class="hidden md:flex w-xl h-full items-center justify-evenly">
       <!-- ✅ NuxtLink untuk home -->
-      <NuxtLink to="/" class="w-12 h-auto">
+      <NuxtLink to="/" class="w-12 h-auto hover:scale-105">
         <img src="/Assets/img/icons/home.png" alt="" />
       </NuxtLink>
 
       <!-- Residence Dropdown -->
       <div class="w-fit group relative">
-        <button class="w-24 text-center group">
+        <button class="w-24 text-center group hover:border-b-1 hover:border-white hover:scale-105">
           Residence
           <div class="absolute w-52 h-fit invisible group-hover:visible">
             <img src="/Assets/img/Polygon2.png" alt="" class="left-0 w-6" />
@@ -33,7 +33,7 @@
       </div>
 
       <!-- Commercial Dropdown -->
-      <button class="w-24 text-center group">
+      <button class="w-24 text-center group hover:border-b-1 hover:scale-105 hover:border-white">
         Commercial
         <div class="absolute w-52 h-fit invisible group-hover:visible">
           <img src="/Assets/img/Polygon2.png" alt="" class="left-0 w-6" />
@@ -45,7 +45,7 @@
       </button>
 
       <!-- About Us Dropdown -->
-      <button class="w-24 text-center group">
+      <button class="w-24 text-center group hover:border-b-1 hover:border-white hover:scale-105">
         About Us
         <div class="absolute w-52 h-fit invisible group-hover:visible">
           <img src="/Assets/img/Polygon2.png" alt="" class="left-0 w-6" />
@@ -60,7 +60,7 @@
       <a
         href="https://wa.me/+6283168168111?text=leoikg"
         target="_blank"
-        class="w-24 h-12 content-center text-center"
+        class="w-24 h-12 content-center text-center hover:border-1 hoveer:border-white hover:scale-105"
       >
         Price List
       </a>
