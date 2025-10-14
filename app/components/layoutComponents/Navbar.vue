@@ -18,7 +18,7 @@
       </NuxtLink>
 
       <!-- Residence Dropdown -->
-      <div class="w-fit group relative">
+      <!-- <div class="w-fit group relative bg-red-300"> -->
         <button class="w-24 text-center group hover:border-b-1 hover:border-white hover:scale-105 transition duration-150 ease-in-out hover:text-gray-200">
           Residence
           <div class="absolute w-52 h-fit invisible group-hover:visible">
@@ -30,7 +30,7 @@
             </div>
           </div>
         </button>
-      </div>
+      <!-- </div> -->
 
       <!-- Commercial Dropdown -->
       <button class="w-24 text-center group hover:border-b-1 hover:scale-105 hover:border-white  transition duration-150 ease-in-out hover:text-gray-200">
