@@ -21,39 +21,20 @@
       <!-- <div class="w-fit group relative bg-red-300"> -->
         <button class="w-24 text-center group hover:border-b-1 hover:border-white hover:scale-105 transition duration-150 ease-in-out hover:text-gray-200">
           Residence
-          <div class="absolute w-52 h-fit invisible group-hover:visible">
-            <img src="/Assets/img/Polygon2.png" alt="" class="left-0 w-6" />
-            <div class="w-full bg-[#326F78] h-full flex flex-col gap-2 items-center py-2 text-white ">
-              <NuxtLink to="/residence/coastview/floorplan" class="border-b-1 w-44 hover:text-gray-200">Coastview Apartment</NuxtLink>
-              <NuxtLink to="/residence/bayview/floorplan" class="border-b-1 w-44 hover:text-gray-200">Bayview Apartment</NuxtLink>
-              <NuxtLink to="/residence/seaview/floorplan" class="border-b-1 w-44 hover:text-gray-200">Seaview Condominium</NuxtLink>
-            </div>
-          </div>
+          <LazyLayoutComponentsNavButton :content="Content.Residence" />
         </button>
       <!-- </div> -->
 
       <!-- Commercial Dropdown -->
       <button class="w-24 text-center group hover:border-b-1 hover:scale-105 hover:border-white  transition duration-150 ease-in-out hover:text-gray-200">
         Commercial
-        <div class="absolute w-52 h-fit invisible group-hover:visible">
-          <img src="/Assets/img/Polygon2.png" alt="" class="left-0 w-6" />
-          <div class="w-full bg-[#326F78] h-full flex flex-col gap-2 items-center py-2 text-white">
-            <NuxtLink to="/commercial/kiosk" class="border-b-1 w-44 hover:text-gray-200 ">Kiosk</NuxtLink>
-            <NuxtLink to="/commercial/baymall" class="border-b-1 w-44 hover:text-gray-200 ">The Bay Mall</NuxtLink>
-          </div>
-        </div>
+        <LayoutComponentsNavButton :content="Content.Commercial" />
       </button>
 
       <!-- About Us Dropdown -->
       <button class="w-24 text-center group hover:border-b-1 hover:border-white hover:scale-105 transition duration-150 ease-in-out hover:text-gray-200">
         About Us
-        <div class="absolute w-52 h-fit invisible group-hover:visible">
-          <img src="/Assets/img/Polygon2.png" alt="" class="left-0 w-6" />
-          <div class="w-full bg-[#326F78] h-full flex flex-col gap-2 items-center py-2 text-white">
-            <NuxtLink to="/about/aboutUs" class="border-b-1 w-44 hover:text-gray-200">About Us</NuxtLink>
-            <NuxtLink to="/about/visiMission" class="border-b-1 w-44 hover:text-gray-200">Visi Missions</NuxtLink>
-          </div>
-        </div>
+        <LayoutComponentsNavButton :content="Content.About" />
       </button>
 
       <!-- Price List -->
@@ -88,5 +69,21 @@ const {goTo}  = ChangePage()
 
 function NavigationPage(page? : string){
   if(page) goTo(page)
+}
+
+const Content = {
+  Residence:[
+    {title: 'Coastview Apartment', to: '/residence/coastview/floorplan'},
+    {title: 'Bayview Apartment', to: '/residence/bayview/floorplan'},
+    {title: 'Seaview Condominium', to: '/residence/seaview/floorplan'},
+  ],
+  Commercial:[
+    {title: 'Kiosk', to: '/commercial/kiosk'},
+    {title: 'The Bay Mall', to: '/commercial/baymall'},
+  ],
+  About:[
+    {title: 'About Us', to: '/about/aboutUs'},
+    {title: 'Visi Missions', to: '/about/visiMission'},
+  ]
 }
 </script>
