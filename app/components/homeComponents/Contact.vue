@@ -29,7 +29,6 @@
             content="jareternal168pro@gmail.com"
                 />
            </span>
-           
         </div>
     </div>
 </template>
