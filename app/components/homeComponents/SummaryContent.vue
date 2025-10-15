@@ -6,12 +6,12 @@
     <img
       :src="imgurl"
       alt=""
-      class="w-full h-52 md:w-2xl md:h-screen relative z-10 rounded-4xl object-cover hover:scale-105 transition duration-150 ease-in-out "
+      class="w-full h-52 md:w-2xl md:h-screen relative z-10 rounded-4xl object-cover hover:scale-105 transition duration-150 ease-in-out hover:shadow-xl "
       :class="extrastyle.styleImg"
     />
     <div class="flex flex-col justify-center md:w-[40%] h-full md:text-xl gap-5">
       <h2 class="font-bold">{{ title }}</h2>
-      <p>{{ content.content0 }}</p>
+      <p>{{ content.content0 }}</p> 
       <p>{{ content.content1 }}</p>
       <p>{{ content.content2 }}</p>
       <p>{{ content.content3 }}</p>
@@ -46,4 +46,5 @@ defineProps({
     }),
   },
 });
+// ufg
 </script>
