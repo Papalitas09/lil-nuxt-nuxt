@@ -7,12 +7,14 @@ export default defineNuxtConfig({
     '~/assets/css/main.css',
     'swiper/css',
     'swiper/css/navigation',
-    'swiper/css/pagination'],
+    'swiper/css/pagination',
+],
   vite: {  
     plugins:
       [      
         tailwindcss(),
       ],
     },
+
     
 })

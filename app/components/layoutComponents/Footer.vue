@@ -38,27 +38,27 @@ import ContactFooter from './contactFooter.vue';
          
          <ul class="flex flex-col w-42 h-full py-10">
             <li><NuxtLink to="/">Home</NuxtLink></li>
-            <li><NuxtLink to="/contact">Contact</NuxtLink></li>
-            <li><NuxtLink to="/commercial">Commercial</NuxtLink></li>
-            <li><NuxtLink to="/pricelist">Pricelist</NuxtLink></li>
-            <li><NuxtLink to="/residence">Residence</NuxtLink></li>
-            <li><NuxtLink to="/project">Project</NuxtLink></li>
+            <li><NuxtLink to="/">Contact</NuxtLink></li>
+            <li><NuxtLink to="/commercial/kiosk">Commercial</NuxtLink></li>
+            <li><NuxtLink to="/">Pricelist</NuxtLink></li>
+            <li><NuxtLink to="/residence/coastview/floorplan">Residence</NuxtLink></li>
+            <li><NuxtLink to="">Project</NuxtLink></li>
          </ul>
 
          <ul class="flex flex-col w-42 h-full py-10">
-            <li><NuxtLink to="/key-concept">Key Concept</NuxtLink></li>
-            <li><NuxtLink to="/apartments">Apartments</NuxtLink></li>
-            <li><NuxtLink to="/condominium">Condominium</NuxtLink></li>
-            <li><NuxtLink to="/kiosk">Kiosk</NuxtLink></li>
-            <li><NuxtLink to="/lifestyle-mall">Lifestyle Mall</NuxtLink></li>
+            <li><NuxtLink to="">Key Concept</NuxtLink></li>
+            <li><NuxtLink to="">Apartments</NuxtLink></li>
+            <li><NuxtLink to="">Condominium</NuxtLink></li>
+            <li><NuxtLink to="">Kiosk</NuxtLink></li>
+            <li><NuxtLink to="">Lifestyle Mall</NuxtLink></li>
          </ul>
 
          <ul class="flex flex-col w-42 h-full py-10">
-            <li><NuxtLink to="/coastview-apartment">Coastview Apartment</NuxtLink></li>
-            <li><NuxtLink to="/bayview-apartment">Bayview Apartment</NuxtLink></li>
-            <li><NuxtLink to="/seaview-condominium">Seaview Condominium</NuxtLink></li>
-            <li><NuxtLink to="/the-bay-mall">The Bay Mall</NuxtLink></li>
-            <li><NuxtLink to="/kiosk">Kiosk</NuxtLink></li>
+            <li><NuxtLink to="">Coastview Apartment</NuxtLink></li>
+            <li><NuxtLink to="">Bayview Apartment</NuxtLink></li>
+            <li><NuxtLink to="">Seaview Condominium</NuxtLink></li>
+            <li><NuxtLink to="">The Bay Mall</NuxtLink></li>
+            <li><NuxtLink to="">Kiosk</NuxtLink></li>
          </ul>
 
          <div class="w-96 relative h-full top-0 py-7">

@@ -16,6 +16,9 @@
 
 <script setup lang="ts">
 import layout from '~/layout/layout.vue';
+const route = useRoute()
+const viewName = route.params.viewName as string
+
 
 const navItems = [
   { label: 'Kiosk', page: '/commercial/kiosk' },

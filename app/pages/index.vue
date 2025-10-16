@@ -1,5 +1,5 @@
 <template>
-   <layout class="overflow-x-hidden">
+   <layout class="overflow-x-hidden"  >
       <HomeComponentsSummary />
       <HomeComponentsRescom />
       <HomeComponentsContact />
