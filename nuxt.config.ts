@@ -9,6 +9,11 @@ export default defineNuxtConfig({
     'swiper/css/navigation',
     'swiper/css/pagination',
 ],
+  routeRules: {
+    '/commercial': { redirect: '/commercial/kiosk' },
+    '/residence': { redirect: '/residence/coastview/floorplan' },
+    '/about': { redirect: '/about/aboutUs' },
+  },
   vite: {  
     plugins:
       [      

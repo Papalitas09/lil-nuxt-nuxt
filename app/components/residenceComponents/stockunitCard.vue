@@ -4,8 +4,8 @@
             <p class="text-white text-3xl z-20 font-bold italic font-inter">Sold Out!</p>
             <div class="w-full h-full bg-[#3B7B84] opacity-55 absolute "></div>
         </div>
-        <button class="" @click="NavigationPage(card.page)">
-            <img :src="card.img" alt="" class="w-full h-44">
+        <button class="group" @click="NavigationPage(card.page)">
+            <img :src="card.img" alt="" class="w-full h-44  ">
             <h4 class="text-center text-2xl">{{ card.title }}</h4>
         </button>
      </div>
