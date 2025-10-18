@@ -1,8 +1,8 @@
 <template>
     <LazyResidenceComponentsResidenceLayout>
-    <div class=" w-full h-fit flex flex-row items-center justify-evenly ">
-        <div class=" w-xl h-screen  flex flex-col justify-center p-10 items-center">
-            <FloorplanTower :buttons="buttons" :title="title"/>
+    <div class=" w-full h-fit flex flex-row items-center justify-evenly "  id="Floor">
+        <div class=" w-xl h-screen  flex flex-col justify-center p-10 items-center" >
+            <FloorplanTower :buttons="buttons" :title="title" />
         </div>
         <div class=" w-lg h-screen  items-center flex  ">
             <FloorplanImages :imgurl="urlimeg" />
