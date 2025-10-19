@@ -4,7 +4,7 @@
       <!-- Tombol Prev -->
       <button
         ref="prevEl"
-        class="absolute left-0 w-fit z-30 flex items-center justify-center rounded-full  p-3 transition hover:bg-white/40"
+        class="absolute left-0 w-fit z-30 flex items-center justify-center rounded-full  p-3 transition hover:scale-125 duration-300 ease-in-out"
       >
         <img
           src="/Assets/img/icons/PrevButton.webp"
@@ -18,17 +18,17 @@
         :modules="modul"
         :slides-per-view="5"
         :space-between="20"
-        class="w-[90%] max-w-6xl"
+        class="w-[90%] max-w-6xl "
         :navigation="{ prevEl: prevEl, nextEl: nextEl }"
       >
         <swiper-slide
           v-for="(button, index) in imej"
           :key="index"
           :class="button.extra"
-          class="flex items-center justify-center"
+          class="flex items-center justify-center  "
         >
           <button
-            class="w-full h-72"
+            class="w-full h-72 hover:scale-105 transition ease-in-out duration-300 cursor-pointer "
             @click="ChangeState(button.img)"
           >
             <img
@@ -43,7 +43,7 @@
       <!-- Tombol Next -->
       <button
         ref="nextEl"
-        class="absolute right-0 z-30 flex items-center justify-center rounded-full w-fit p-3 transition hover:bg-white/40"
+        class="absolute right-0 z-30 flex items-center justify-center rounded-full w-fit p-3 transition hover:scale-125 duration-300 ease-in-out"
       >
         <img
           src="/Assets/img/icons/NextButton.webp"

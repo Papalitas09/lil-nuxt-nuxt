@@ -73,17 +73,17 @@ function NavigationPage(page? : string){
 
 const Content = {
   Residence:[
-    {title: 'Coastview Apartment', to: '/residence/coastview/floorplan'},
-    {title: 'Bayview Apartment', to: '/residence/bayview/floorplan'},
-    {title: 'Seaview Condominium', to: '/residence/seaview/floorplan'},
+    {title: 'Coastview Apartment', to: '/residence/coastview/floorplan/'},
+    {title: 'Bayview Apartment', to: '/residence/bayview/floorplan/'},
+    {title: 'Seaview Condominium', to: '/residence/seaview/floorplan/'},
   ],
   Commercial:[
-    {title: 'Kiosk', to: '/commercial/kiosk'},
-    {title: 'The Bay Mall', to: '/commercial/baymall'},
+    {title: 'Kiosk', to: '/commercial/kiosk/'},
+    {title: 'The Bay Mall', to: '/commercial/baymall/'},
   ],
   About:[
-    {title: 'About Us', to: '/about/aboutUs'},
-    {title: 'Visi Missions', to: '/about/visiMission'},
+    {title: 'About Us', to: '/about/aboutUs/'},
+    {title: 'Visi Missions', to: '/about/visiMission/'},
   ]
 }
 </script>
