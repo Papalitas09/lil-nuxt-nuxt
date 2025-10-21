@@ -13,6 +13,7 @@
             <RescomCard 
             imgurl="/Assets/img/home.webp"
             title="Condominium"
+            :can-hovered="true"
             />
             <RescomCard
             imgurl="/Assets/img/kiosk.webp"
@@ -22,10 +23,12 @@
             imgurl="/Assets/img/lifestylemall.webp"
             title="Lifestyle Mall"
             />
+         
         </div>
     </div>
 </template>
 <script setup lang="ts">
 import RescomCard from './RescomCard.vue';
+
 
 </script>
