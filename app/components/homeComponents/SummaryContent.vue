@@ -2,6 +2,7 @@
   <div
     class="flex flex-col md:flex-row w-full p-5 text-sm gap-5 md:gap-32 h-fit md:items-start "
     :class="extrastyle.styleParent"
+    id="summary"
   >
     <img
       :src="imgurl"
