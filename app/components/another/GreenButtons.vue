@@ -31,7 +31,6 @@ function isActive(page?: string): boolean {
 
 async function NavigationPage(page?: string){
   if(page) goTo(page)
-
 }
 
 </script>

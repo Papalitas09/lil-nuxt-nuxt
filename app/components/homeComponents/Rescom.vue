@@ -4,7 +4,7 @@
             <h3 class="font-bold text-center text-[#3B7B84] text-xl md:text-4xl">Welcome to Green Bay</h3>
             <p class="text-sm  text-center md:text-xl">The Green Nautical Living building concept in North Jakarta</p>
         </div>
-        <div class="w-screen h-80 max-h-screen flex-row flex-wrap flex justify-center gap-10 items-center z-30">
+        <div class="w-screen h-80 max-h-screen flex-row flex-wrap flex justify-center gap-10 items-center">
             <RescomCard
             imgurl="/Assets/img/apartements.webp"
             title="Apartements" 
