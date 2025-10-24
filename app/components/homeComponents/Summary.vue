@@ -1,5 +1,5 @@
 <template>
- <div class="h-fit w-full flex flex-col  gap-1 py-10 " id="content">
+ <div class="h-fit w-full flex flex-col  gap-1 py-8 " id="content">
         <SummaryContent 
         imgurl="/Assets/img/home4.jpg"
         title="Temukan Hunian Nyaman dan Strategis di Apartemen Green Bay Pluit"
@@ -30,7 +30,7 @@
             styleImg:'md:-mr-20 md:rounded-l-3xl'
         }"
         />
-        <div class="bg-[#3B7B84] w-full h-16 mt-8"></div>
+        <div class="bg-[#3B7B84] w-full h-16 mt-8 p-0 relative"></div>
     </div>
 </template>
 <script setup lang="ts">

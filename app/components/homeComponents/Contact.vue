@@ -1,11 +1,11 @@
 <template>
     <div class="w-full h-full bg-[#3B7B84] pb-10 md:flex md:flex-col md:items-center" id="contact">
-        <div class="text-white w-full h-[10vh] flex justify-center items-center gap-2  md:justify-start md:px-40 md:text-xl ">
-            <div class="w-[15vw] bg-gradient-to-l from-white via-white to-transparent h-[0.3vh] md:w-24"></div>
-            <h3>Information Marketing Gallery</h3>
-            <div class="w-[15vw] bg-gradient-to-r from-white via-white to-transparent h-[0.3vh] md:w-24"></div>
+        <div class="text-white w-full py-5  h-fit text-lg flex justify-center items-center gap-2   md:justify-start md:px-40 md:text-xl ">
+            <div class="w-12 max-w-16 bg-gradient-to-l from-white via-white to-transparent md:h-[0.3vh] h-1 md:w-24"></div>
+            <h3 class="text-center">Information Marketing Gallery</h3>
+            <div class="w-12 max-w-16 bg-gradient-to-r from-white via-white to-transparent md:h-[0.3vh] h-1 md:w-24"></div>
         </div>
-        <div class=" w-full h-full flex flex-col items-center gap-10 py-5 md:justify-center md:w-[90%]  md:h-fit md:gap-3 ">
+        <div class=" w-full h-full flex flex-col items-center gap-10 py-2 md:justify-center md:w-[90%]  md:h-fit md:gap-3 ">
            <span class=" md:w-full md:h-fit">
                <ContactCard
                imgurl="/Assets/img/icons/address.png"

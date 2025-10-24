@@ -54,12 +54,12 @@
                 </swiper>
             </client-only>
             </div>
-            <div class="h-52 w-screen z-10 p-5 flex flex-col text-white  md:justify-center md:gap-5 md:h-64 md:px-28 md:w-fit  md:mt-32">
-                <h2 class="text-2xl  md:text-5xl font-extrabold">Welcome to Green Bay <br>Pluit</h2>
+            <div class="h-52 max-h-60 w-screen z-10 p-5 flex flex-col text-white  md:justify-center md:gap-5 md:h-72 md:px-28 md:w-fit  md:mt-32 md:max-h-96   ">
+                <h2 class="text-2xl md:text-5xl font-extrabold">Welcome to Green Bay <br>Pluit</h2>
                 <p class="w-64  text-sm font-light md:text-xl md:w-96">The Green Nautical Living building concept in North Jakarta</p>
-                <div class="w-fit min-w-52  flex gap-5 text-black mt-5 md:min-h-14 md:text-xl">
-                    <NuxtLink :to="{path: '/', hash:'#summary'}" class="bg-[#F5F5F5] p-1 h-full w-24 text-center md:w-52 content-center">Learn More</NuxtLink>
-                    <NuxtLink :to="{path: '/', hash:'#contact'}" class="bg-[#F5F5F5] p-1 h-full w-24 text-center md:w-52 content-center">Location</NuxtLink>
+                <div class="w-fit min-w-52  flex gap-5 text-black mt-5 md:min-h-14 md:text- min-h-10 h-fit max-h-20 ">
+                    <NuxtLink :to="{path: '/', hash:'#summary'}" class="bg-[#F5F5F5]  h-full w-24 text-center md:w-52 content-center text-sm md:text-xl">Learn More</NuxtLink>
+                    <NuxtLink :to="{path: '/', hash:'#contact'}" class="bg-[#F5F5F5]  h-full w-24 text-center md:w-52 content-center text-sm md:text-xl">Location</NuxtLink>
                 </div>
             </div> 
         </div>

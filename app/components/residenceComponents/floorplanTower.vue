@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full flex flex-col px-5 items-center justify-center" >
+    <div class=" w-full flex flex-col px-5 items-center justify-center bg-amber-200" >
         <h2 class="text-4xl font-bold text-[#3B7B84]">{{ title }}</h2>
         <img v-if="activeTower && activeTower.img" :src="activeTower.img" alt="" class="w-full h-96 p-5 " :key="activeTower.img" loading="lazy">
         <div class=" w-full h-10  flex justify-center">
