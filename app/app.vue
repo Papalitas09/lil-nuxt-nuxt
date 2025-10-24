@@ -3,7 +3,7 @@
     <NuxtRouteAnnouncer />
     <NuxtPage class="scroll-smooth" />
     <NuxtLoadingIndicator 
-      color="#22c55e" 
+      color="#3B7B84" 
       :height="4" 
       :duration="3000" 
       :throttle="200" 

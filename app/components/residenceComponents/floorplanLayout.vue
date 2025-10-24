@@ -14,7 +14,6 @@
 <script setup lang="ts">
 import FloorplanImages from './floorplanImages.vue';
 import FloorplanTower from './floorplanTower.vue';
-import ResidenceLayout from './residenceLayout.vue';
 
 defineProps<{
     buttons: {label: string, img: string }[],

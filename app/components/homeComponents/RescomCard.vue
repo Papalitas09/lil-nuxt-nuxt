@@ -29,7 +29,7 @@
           break
         case 'Condominium':
           content1.value = 'Seaview Condominium'
-          link1.value = '/'
+          link1.value = '/residence/seaview/floorplan/'
           break
         default:
           break

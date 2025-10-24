@@ -38,7 +38,7 @@
                     <swiper-slide>
                         <img 
                             src="/Assets/img/home4.jpg" 
-                            alt="Welcome slide 3" 
+                            alt="Welcome slide 4" 
                             class="w-full h-full object-cover opacity-50"
                             loading="lazy"
                         >
@@ -46,7 +46,7 @@
                     <swiper-slide>
                         <img 
                             src="/Assets/img/home5.jpg" 
-                            alt="Welcome slide 3" 
+                            alt="Welcome slide 5" 
                             class="w-full h-full object-cover opacity-50"
                             loading="lazy"
                         >
