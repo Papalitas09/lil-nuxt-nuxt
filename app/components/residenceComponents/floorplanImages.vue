@@ -16,6 +16,7 @@
                                 :src="img.url" 
                                 :alt="img.alt" 
                                 class="w-full h-96"
+                                loading="lazy"
                             >
                         </swiper-slide>
                     </swiper>

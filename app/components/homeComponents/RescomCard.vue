@@ -23,16 +23,13 @@
           content1.value = 'Costview Apartment'
           content2.value = 'Bayview Apartment  '
           link1.value = '/residence/coastview/floorplan/'
-          link2.value = '/'
+          link2.value = 'residence/bayview/floorplan/'
           break
         case 'Condominium':
           content1.value = 'Seaview Condominium'
           link1.value = '/'
-          link2.value = '/'
           break
-        case 'Kiosk':
-          content1.value = 'e'
-          content2.value = 'es'
+        default:
           break
     }
 </script>
