@@ -9,26 +9,29 @@
             imgurl="/Assets/img/apartements.webp"
             title="Apartements" 
             :can-hovered="true"
+            :can-clicked="false"
             />
             <RescomCard 
             imgurl="/Assets/img/home.webp"
             title="Condominium"
             :can-hovered="true"
+            :can-clicked="false"
             />
             <RescomCard
             imgurl="/Assets/img/kiosk.webp"
             title="Kiosk"
+            :can-clicked="true"
+            page="/commercial/kiosk/"
             />
             <RescomCard
             imgurl="/Assets/img/lifestylemall.webp"
             title="Lifestyle Mall"
+            :can-clicked="true"
+            page="/commercial/baymall/"
             />
-         
         </div>
     </div>
 </template>
 <script setup lang="ts">
 import RescomCard from './RescomCard.vue';
-
-
 </script>

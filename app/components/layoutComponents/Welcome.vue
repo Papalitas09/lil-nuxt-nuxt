@@ -16,6 +16,7 @@
                             src="/Assets/img/home.webp" 
                             alt="Welcome slide 1" 
                             class="w-full h-full object-cover opacity-50"
+                            loading="lazy"
                         >
                     </swiper-slide>
                     <swiper-slide>
@@ -23,6 +24,7 @@
                             src="/Assets/img/home2.jpg" 
                             alt="Welcome slide 2" 
                             class="w-full h-full object-cover opacity-50"
+                            loading="lazy"
                         >
                     </swiper-slide>
                     <swiper-slide>
@@ -30,6 +32,7 @@
                             src="/Assets/img/home3.jpg" 
                             alt="Welcome slide 3" 
                             class="w-full h-full object-cover opacity-50"
+                            loading="lazy"
                         >
                     </swiper-slide>
                     <swiper-slide>
@@ -37,6 +40,7 @@
                             src="/Assets/img/home4.jpg" 
                             alt="Welcome slide 3" 
                             class="w-full h-full object-cover opacity-50"
+                            loading="lazy"
                         >
                     </swiper-slide>
                     <swiper-slide>
@@ -44,6 +48,7 @@
                             src="/Assets/img/home5.jpg" 
                             alt="Welcome slide 3" 
                             class="w-full h-full object-cover opacity-50"
+                            loading="lazy"
                         >
                     </swiper-slide>
                 </swiper>
