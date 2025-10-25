@@ -3,7 +3,7 @@
         <div class="min-h-screen overflow-x-hidden w-full">
             <div class="w-full h-24 bg-[rgb(59,123,132)]" ></div>
             <div class="0 w-full h-full flex flex-col items-center ">
-                <div class="h-screen w-8xl flex flex-col  items-center  py-5">
+                <div class="h-screen  w-fit max-w-full flex flex-col  items-center  py-5">
                     <another-green-buttons :links="navItems"/>
                     <slot />
                 </div>
@@ -18,7 +18,7 @@ import layout from '~/layout/layout.vue';
 const route = useRoute()
 const navItems = [
     {label: "About Us", page: "/about/aboutUs/#about"},
-    {label: "The Visions and missions", page: "/about/visiMission/#about", extraclass: "w-84"},
+    {label: "The Visions and missions", page: "/about/visiMission/#about", extraclass: "md:w-80"},
     {label: "Project"},
 ]
 </script>

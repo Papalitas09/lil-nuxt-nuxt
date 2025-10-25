@@ -58,8 +58,8 @@
                 <h2 class="text-2xl md:text-5xl font-extrabold">Welcome to Green Bay <br>Pluit</h2>
                 <p class="w-64  text-sm font-light md:text-xl md:w-96">The Green Nautical Living building concept in North Jakarta</p>
                 <div class="w-fit min-w-52  flex gap-5 text-black mt-5 md:min-h-14 md:max-h-full md:text-lg md:w-fit min-h-10 h-fit max-h-20 ">
-                    <NuxtLink :to="{path: '/', hash:'#summary'}" class="bg-[#F5F5F5]  h-full w-24 text-center md:h-12 md:w-32  content-center text-sm md:text-lg  ">Learn More</NuxtLink>
-                    <NuxtLink :to="{path: '/', hash:'#contact'}" class="bg-[#F5F5F5]  h-full w-24  text-center md:h-12 md:w-32 content-center text-sm md:text-lg">Location</NuxtLink>
+                    <NuxtLink :to="{path: '/', hash:'#summary'}" class="bg-[#F5F5F5]  h-full w-24 text-center md:h-10 md:w-28  content-center text-sm md:text-lg  ">Learn More</NuxtLink>
+                    <NuxtLink :to="{path: '/', hash:'#contact'}" class="bg-[#F5F5F5]  h-full w-24  text-center md:h-10 md:w-28 content-center text-sm md:text-lg">Location</NuxtLink>
                 </div>
             </div> 
         </div>

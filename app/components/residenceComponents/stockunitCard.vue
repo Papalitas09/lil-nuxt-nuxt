@@ -1,6 +1,6 @@
 <template>
-<div class="w-72 h-56 bg-[#F5F5F5] gap-2 flex flex-col relative hover:scale-105 transition ease-in-out" v-for="(card, index) in cardValues" :key="index">
-        <div class="w-full h-full absolute flex items-center justify-center" v-if="card.stock">
+<div class="w-72 h-56 bg-[#F5F5F5] gap-2 flex flex-col relative hover:scale-105 transition ease-in-out group duration-300" v-for="(card, index) in cardValues" :key="index">
+        <div class="w-full h-full absolute flex items-center justify-center group-hover:visible invisible   duration-400 ease-in-out opacity-0 group-hover:opacity-100" v-if="card.stock">
             <p class="text-white text-3xl z-20 font-bold italic font-inter">Sold Out!</p>
             <div class="w-full h-full bg-[#3B7B84] opacity-55 absolute "></div>
         </div>
