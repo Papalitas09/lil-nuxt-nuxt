@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full h-full absolute flex items-center justify-center" >
+    <div class=" hidden w-full h-full absolute md:flex items-center justify-center" >
     <div class="relative w-full h-full  items-center flex flex-col">   
         <div class=" w-full h-12 text-center content-center border-b-2 border-white">
                         <p class="text-white text-lg font-bold">{{ title }}</p>

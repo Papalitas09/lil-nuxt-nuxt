@@ -1,7 +1,7 @@
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <NuxtPage class="scroll-smooth" />
+    <NuxtPage class="scroll-smooth overflow-x-hidden" />
     <NuxtLoadingIndicator 
       color="#3B7B84" 
       :height="4" 

@@ -1,10 +1,10 @@
 <template>
     <LazyResidenceComponentsResidenceLayout >
-    <div class=" w-fit md:h-[80vh] h-full min-h-52 max-h-full  flex flex-col md:flex-row bg-green-400 items-center md:justify-center md:w-fit md:max-w-full  justify-evenly"  >
-        <div class=" w-xl md:h-screen h-fit  flex flex-col justify-center  bg-amber-200 p-10 items-center ">
+    <div class=" w-full md:w-screen md:h-[80vh] h-full min-h-52 max-h-full  gap-10 pb-10 md:gap-0 md:pb-0 flex flex-col md:flex-row  items-center md:justify-center md:max-w-full justify-evenly  md:p-10" >
+        <div class=" w-full  md:h-full h-fit  flex flex-col justify-center items-center ">
             <FloorplanTower :buttons="buttons" :title="title" />
         </div>
-        <div class=" w-lg  h-screen  items-center flex  ">
+        <div class=" w-full h-full md:items-center flex  justify-center ">
             <FloorplanImages :imgurl="urlimeg" />
         </div>
     </div>   

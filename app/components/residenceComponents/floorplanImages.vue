@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full  flex items-center justify-center min-h-4/6 md:max-h-full rounded-2xl bg-[#D9D9D9] ">
+    <div class=" md:w-xl w-full md:h-full md:p-3 flex items-center justify-center min-h-4/6 md:max-h-full rounded-2xl bg-[#D9D9D9] ">
              <button ref="prevEl" class=" z-30 left-2 w-22 h-fit p-2 rounded-full hover:scale-105 transition ease-in-out duration-300 cursor-pointer" ><img src="/Assets/img/icons/PrevButton.webp" alt="" class="w-full rounded-full h-full"></button>
              <client-only>    
                 <swiper

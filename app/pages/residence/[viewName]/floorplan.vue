@@ -14,7 +14,7 @@ interface property{
 
 const floorplanData: Record<string, property> = {
   coastview: {
-    title: 'Tower CoastView',
+    title: 'Tower Coastview',
     towerButtons: [
       {label: "Tower A", img:"/Assets/img/Tower/coastviewA.webp"},
       {label: "Tower B", img:"/Assets/img/Tower/coastviewB.webp"},
@@ -28,7 +28,7 @@ const floorplanData: Record<string, property> = {
     ]
   },
   bayview:{
-    title: 'Tower BayView',
+    title: 'Tower Bayview',
     towerButtons:[
       {label: "Tower E", img:"/Assets/img/Tower/bayviewE.webp"},
       {label: "Tower F", img:"/Assets/img/Tower/bayviewF.webp" },
@@ -43,7 +43,7 @@ const floorplanData: Record<string, property> = {
     ]
   },
   seaview:{
-    title: 'Tower SeaView',
+    title: 'Tower Seaview',
     towerButtons: [
       {label: "Tower J", img:"/Assets/img/Tower/seaviewJ.webp"},
       {label: "Tower K", img:"/Assets/img/Tower/seaviewK.webp"},

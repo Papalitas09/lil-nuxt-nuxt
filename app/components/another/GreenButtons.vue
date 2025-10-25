@@ -1,10 +1,10 @@
 <template>
-  <div class="w-full h-24 flex justify-center items-center md:px-5 gap-5">
+  <div class="w-full h-24 flex justify-center items-center md:px-5  gap-5">
     <button
       v-for="(link, index) in links"
       :key="index"
       @click="NavigationPage(link.page)"
-      class="md:w-42 w-xl h-10 text-center content-center rounded duration-400 bg-[rgb(59,123,132)] text-white relative hover:bg-[rgb(48,100,107)]  text-xs  ease-in-out cursor-pointer"
+      class="w-xl md:w-42 h-10  md:h-12 text-center content-center rounded duration-400 bg-[rgb(59,123,132)] text-white relative hover:bg-[rgb(48,100,107)]  text-xs md:text-lg ease-in-out cursor-pointer"
       :class="link.extraclass"
       >
       <img src="/Assets/img/Polygon1.png" alt="" class="absolute bottom-0 left-1/2 transform -translate-x-1/2  w-3 z-10" v-show="link.isActive || isActive(link.page)" >

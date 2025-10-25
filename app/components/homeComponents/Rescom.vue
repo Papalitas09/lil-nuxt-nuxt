@@ -9,7 +9,8 @@
             imgurl="/Assets/img/apartements.webp"
             title="Apartements" 
             :can-hovered="true"
-            :can-clicked="false"
+            :can-clicked="true"
+            page="/residence/coastview/floorplan/"
             />
             <RescomCard 
             imgurl="/Assets/img/home.webp"
