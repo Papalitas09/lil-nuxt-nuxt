@@ -30,8 +30,8 @@
             styleImg:'md:-mr-20 md:rounded-l-3xl'
         }"
         />
-        <div class="bg-[#3B7B84] w-full md:min-h-16 md:h-20 mt-8 p-0 relative flex justify-center items-center">
-            <NuxtLink to="/about/aboutUs/" class="bg-[#F5F5F5] hover:bg-gray-300 transition ease-in-out duration-300 hover:text-[#5f9ea7] h-full w-24 text-center md:h-12 md:w-44  content-center text-sm md:text-lg  font-bold text-[#3B7B84]">About Us</NuxtLink>
+        <div class="bg-[#3B7B84] w-full md:min-h-16 md:h-20 mt-8 p-0 relative flex justify-center items-center h-12">
+            <NuxtLink to="/about/aboutUs/" class="bg-[#F5F5F5] hover:bg-gray-300 transition ease-in-out duration-300 hover:text-[#5f9ea7] h-8 w-24 text-center md:h-12 md:w-44  content-center text-sm md:text-lg  font-bold text-[#3B7B84] ">About Us</NuxtLink>
         </div>
     </div>
 </template>

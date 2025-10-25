@@ -5,7 +5,7 @@
             <h2 class="text-4xl  text-[#3B7B84] font-extrabold">{{ topTitle }}</h2>
             <p>The Green Nautical Living building concept in North Jakarta</p>
         </div> 
-        <div class="flex-wrap gap-5 justify-center flex w-full h-full ">
+        <div class="flex-wrap gap-5 justify-center flex w-full h-full">
             <residence-components-stockunit-card :cardValues="cardValues" :title="topTitle" />
          </div>
      </div>

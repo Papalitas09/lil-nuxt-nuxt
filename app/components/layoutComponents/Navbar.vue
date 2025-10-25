@@ -1,13 +1,13 @@
 <template>
   <header
-    class="w-full h-24 flex items-center justify-between px-2 fixed md:bg-[#3B7B84] md:h-28 text-white z-50 font-jasques"
+    class="w-full h-24 flex items-center justify-between md:px-2   fixed md:bg-[#3B7B84] md:h-28 text-white z-50 font-jasques"
   >
-    <div class="h-full w-fit relative flex items-center">
-      <img src="/Assets/img/icons/Logo.png" alt="" class="w-22 md:w-32 cursor-pointer" @click="NavigationPage('/')" />
+    <div class="h-full w-fit relative flex items-center ">
+      <img src="/Assets/img/icons/Logo.png" alt="" class="w-20 md:w-32 cursor-pointer " @click="NavigationPage('/')" />
       <h1 class="text-sm md:text-2xl cursor-default">Apartment Green Bay</h1>
     </div>
 
-    <button class="w-32 h-14 max-w-[15vw] md:hidden">
+    <button class="w-10 h-14 max-w-52 md:hidden">
       <img src="/Assets/img/icons/Hamburger.png" alt="" />
     </button>
 
