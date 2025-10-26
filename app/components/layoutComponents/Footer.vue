@@ -4,7 +4,7 @@ import ContactFooter from './contactFooter.vue';
 </script>
 
 <template>
-   <footer class="w-full h-[60vh] bg-[#072134] flex items-center justify-evenly text-white flex-col md:h-[40vh] relative">
+   <footer class="w-full h-96 bg-[#072134] flex items-center justify-evenly text-white flex-col md:h-[40vh] relative">
       <!-- Mobile -->
       <div class="h-[40vh] w-screen flex justify-evenly z-20 md:items-center md:hidden ">
          <ul class="md:w-[40vw] md:h-[20vh]">
