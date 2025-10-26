@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col md:flex-row w-full px-5 text-sm gap-5 md:mb-5 md:gap-32 h-fit md:items-start "
+    class="flex flex-col md:flex-row w-full px-5 text-sm gap-5 md:mb-5 md:w-full md:gap-10 h-fit md:items-start "
     :class="extrastyle.styleParent"
     id="summary"
   >
@@ -10,7 +10,7 @@
       class="w-full h-52 md:w-2xl md:h-screen relative z-10 rounded-4xl object-cover hover:scale-105 transition duration-150 ease-in-out hover:shadow-xl "
       :class="extrastyle.styleImg"
     />
-    <div class="flex flex-col justify-center md:w-[40%] h-full md:text-xl gap-5">
+    <div class="flex flex-col justify-center md:w-2xl h-full md:text-xl gap-5 md:px-14 ">
       <h2 class="font-bold">{{ title }}</h2>
       <p>{{ content.content0 }}</p> 
       <p>{{ content.content1 }}</p>
