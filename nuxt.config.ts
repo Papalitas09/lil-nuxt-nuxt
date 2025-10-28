@@ -20,6 +20,12 @@ export default defineNuxtConfig({
         tailwindcss(),
       ],
     },
-
-    
+    app: {
+      head: {
+        title: 'Apartement GreenBay Pluit',
+        link: [
+          { rel: 'icon', type: 'image/png', href: '/logo.png' },
+        ],
+      },
+  },
 })
