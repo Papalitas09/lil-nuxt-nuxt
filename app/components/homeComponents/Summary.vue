@@ -26,7 +26,7 @@
             Konsep penghijauan dan lanskap dirancang langsung oleh Bennitt Design Group (USA), memastikan kualitas tata ruang hijau yang estetis, fungsional, dan berkelas dunia.`
         }" 
         :extrastyle="{
-            styleParent:'md:flex-row-reverse',
+            styleParent:'md:flex-row-reverse ',
             styleImg:'md:-mr-20 md:rounded-l-3xl'
         }"
         />

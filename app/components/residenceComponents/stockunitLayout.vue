@@ -1,8 +1,8 @@
 <template>
     <residence-components-residence-layout>
-     <div class=" w-4xl h-fit rounded-3xl items-center flex bg-[#D9D9D9] flex-col gap-5 p-10 ">
-        <div class="w-fit  h-fit text-center">
-            <h2 class="text-4xl  text-[#3B7B84] font-extrabold">{{ topTitle }}</h2>
+     <div class="w-full md:w-4xl h-fit rounded-3xl items-center flex bg-[#D9D9D9] flex-col gap-5 md:p-10 p-5 ">
+        <div class="w-fit h-fit text-center">
+            <h2 class="md:text-4xl text-2xl  text-[#3B7B84] font-extrabold">{{ topTitle }}</h2>
             <p>The Green Nautical Living building concept in North Jakarta</p>
         </div> 
         <div class="flex-wrap gap-5 justify-center flex w-full h-full">

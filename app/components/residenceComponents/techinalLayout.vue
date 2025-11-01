@@ -1,13 +1,13 @@
 <template>
 <ResidenceComponentsResidenceLayout>
-    <div class="bg-[#D9D9D9] w-5xl h-screen rounded-4xl flex p-5 items-center justify-evenly relative flex-col">
+    <div class="bg-[#D9D9D9] md:w-5xl w-full md:h-screen h-fit rounded-4xl flex p-5 items-center justify-evenly relative flex-col">
        <div class="text-white w-full h-10  flex justify-center items-center gap-2  md:h-fit ">
             <div class="w-[15vw] bg-gradient-to-l from-slate-900  to-transparent h-[0.3vh] md:w-24"></div>
-            <h3 class="text-2xl md:text-3xl text-black font-jasques">Technical Spesification</h3>
+            <h3 class="text-2xl text-center md:text-3xl text-black font-jasques">Technical Spesification</h3>
             <div class="w-[15vw] bg-gradient-to-l from-slate-900  to-transparent h-[0.3vh] md:w-24"></div>
         </div>
         <div class="w-full h-full flex flex-col items-center">
-            <ul class="list-none text-lg px-10 py-5 gap-5 flex flex-col">
+            <ul class="list-none text-lg  md:px-10 py-5 gap-5 flex flex-col w-full">
                 <li>PONDASI: Tiang Pancang Beton</li>
                 <li>STRUKTUR BANGUNAN: Beton Bertulang</li>
                 <li>DINDING: Eksternal – Dinding beton precast/prefab, Internal – Bata Ringan/Gypsum Board</li>

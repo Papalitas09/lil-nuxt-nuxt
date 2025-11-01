@@ -2,7 +2,7 @@
     <div class="w-full h-full bg-[#3B7B84] pb-10 md:flex md:flex-col md:items-center" id="contact">
         <div class="text-white w-full py-5  h-fit text-lg flex justify-center items-center gap-2   md:justify-center md:text-2xl ">
             <div class="w-12 max-w-16 bg-gradient-to-l from-white via-white to-transparent md:h-[0.3vh] h-1 md:w-24"></div>
-            <h3 class="text-center">Information Marketing Gallery</h3>
+            <h3 class="text-center font-jasques">Information Marketing Gallery</h3>
             <div class="w-12 max-w-16 bg-gradient-to-r from-white via-white to-transparent md:h-[0.3vh] h-1 md:w-24"></div>
         </div>
         <div class=" w-full h-full flex flex-col items-center gap-10 py-2 md:justify-center md:w-lvw md:px-10 md:h-fit md:gap-3 ">

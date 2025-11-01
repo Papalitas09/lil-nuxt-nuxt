@@ -15,7 +15,7 @@
                             <img 
                                 :src="img.url" 
                                 :alt="img.alt" 
-                                class="w-full h-96"
+                                class="w-full h-full py-5"
                                 loading="lazy"
                             >
                         </swiper-slide>

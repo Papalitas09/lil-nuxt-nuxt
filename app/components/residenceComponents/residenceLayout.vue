@@ -1,6 +1,6 @@
 <template>
     <layout>
-        <div class="w-full h-24 bg-[rgb(59,123,132)] "></div>
+        <div class="w-full md:h-24 h-12 bg-[rgb(59,123,132)] "></div>
             <div class="w-full h-fit flex flex-col items-center gap-2  p-2 md:p-20" >
                 <another-green-buttons :links="navItems" />
                 <slot />
